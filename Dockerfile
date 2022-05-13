@@ -1,12 +1,66 @@
-# Tags: latest, 4.9.0-debian-10-r25, 4.9.0, 4-debian-10, 4
+# Tags: latest, 5.2.0-debian-10-r5, 5.2.0, 5-debian-10, 5
 FROM bitnami/keycloak-config-cli:latest
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r25
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r5
+FROM bitnami/keycloak-config-cli:5.2.0
+FROM bitnami/keycloak-config-cli:5-debian-10
+FROM bitnami/keycloak-config-cli:5
+
+# Tags: _
+FROM bitnami/keycloak-config-cli:_
+
+# Tags: 4.9.0-debian-10-r36, 4.9.0, 4-debian-10, 4
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r36
 FROM bitnami/keycloak-config-cli:4.9.0
 FROM bitnami/keycloak-config-cli:4-debian-10
 FROM bitnami/keycloak-config-cli:4
 
-# Tags: _
-FROM bitnami/keycloak-config-cli:_
+# Tags: 5.2.0-debian-10-r4
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r4
+
+# Tags: 4.9.0-debian-10-r35
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r35
+
+# Tags: 5.2.0-debian-10-r3
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r3
+
+# Tags: 4.9.0-debian-10-r34
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r34
+
+# Tags: 5.2.0-debian-10-r2
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r2
+
+# Tags: 4.9.0-debian-10-r33
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r33
+
+# Tags: 5.2.0-debian-10-r1
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r1
+
+# Tags: 5.2.0-debian-10-r0
+FROM bitnami/keycloak-config-cli:5.2.0-debian-10-r0
+
+# Tags: 4.9.0-debian-10-r32
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r32
+
+# Tags: 4.9.0-debian-10-r31
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r31
+
+# Tags: 4.9.0-debian-10-r30
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r30
+
+# Tags: 4.9.0-debian-10-r29
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r29
+
+# Tags: 4.9.0-debian-10-r28
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r28
+
+# Tags: 4.9.0-debian-10-r27
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r27
+
+# Tags: 4.9.0-debian-10-r26
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r26
+
+# Tags: 4.9.0-debian-10-r25
+FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r25
 
 # Tags: 4.9.0-debian-10-r24
 FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r24
@@ -61,34 +115,3 @@ FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r8
 
 # Tags: 4.9.0-debian-10-r7
 FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r7
-
-# Tags: 4.9.0-debian-10-r6
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r6
-
-# Tags: 4.9.0-debian-10-r5
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r5
-
-# Tags: 4.9.0-debian-10-r4
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r4
-
-# Tags: 4.9.0-debian-10-r3
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r3
-
-# Tags: 4.9.0-debian-10-r2
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r2
-
-# Tags: 4.9.0-debian-10-r1
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r1
-
-# Tags: 4.9.0-debian-10-r0
-FROM bitnami/keycloak-config-cli:4.9.0-debian-10-r0
-
-# Tags: 4.8.1-debian-10-r25, 4.8.1
-FROM bitnami/keycloak-config-cli:4.8.1-debian-10-r25
-FROM bitnami/keycloak-config-cli:4.8.1
-
-# Tags: 4.8.1-debian-10-r24
-FROM bitnami/keycloak-config-cli:4.8.1-debian-10-r24
-
-# Tags: 4.8.1-debian-10-r23
-FROM bitnami/keycloak-config-cli:4.8.1-debian-10-r23
